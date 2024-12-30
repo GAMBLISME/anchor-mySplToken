@@ -1,7 +1,7 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { Myspltoken } from "../target/types/myspltoken";
-import { PublicKey, Keypair, SystemProgram, sendAndConfirmTransaction } from "@solana/web3.js";
+import { Keypair, SystemProgram } from "@solana/web3.js";
 import { PROGRAM_ID as METADATA_PROGRAM_ID } from "@metaplex-foundation/mpl-token-metadata";
 import {
   getAssociatedTokenAddress,
